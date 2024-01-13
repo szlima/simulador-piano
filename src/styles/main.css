@@ -4,12 +4,14 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: #E3F2FD;
+    color: #FFF;
 }
 
-.container{border: 1px solid red;
+.container{
     width: 780px;
     border-radius: 20px;
     padding: 35px 40px;
+    background-color: #000;
 }
 
 header h2{
@@ -57,4 +59,9 @@ header .column span{
 .keys-check input:checked::before{
     left: 2.1rem;
     background-color: #8C8C8C;
+}
+
+.piano-keys{
+    display: flex;
+    margin-top: 40px;
 }
